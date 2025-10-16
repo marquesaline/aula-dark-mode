@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio — Página Simples</title>
+  <meta name="description" content="Página de portfólio simples para workshop de Dark Mode." />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Dev - Seu nome</a>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Olá, eu sou Seu nome 👋</h1>
+      <p>Desenvolvedor Full Stack. Eu construo aplicações web simples e escaláveis.</p>
+      <a class="btn" href="#projetos">Ver projetos</a>
+    </section>
+
+    <section id="projetos" class="container">
+      <h2>Projetos em destaque</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="thumb" aria-label="Prévia do projeto 1"></div>
+          <h3>Projeto 1</h3>
+          <p>SPA simples com API pública.</p>
+          <a class="link" href="#">Ver código</a>
+        </article>
+        <article class="card">
+          <div class="thumb" aria-label="Prévia do projeto 2"></div>
+          <h3>Projeto 2</h3>
+          <p>Landing page responsiva.</p>
+          <a class="link" href="#">Ver código</a>
+        </article>
+        <article class="card">
+          <div class="thumb" aria-label="Prévia do projeto 3"></div>
+          <h3>Projeto 3</h3>
+          <p>Dashboard com gráficos estáticos.</p>
+          <a class="link" href="#">Ver código</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" class="container">
+      <h2>Sobre</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum porro expedita eligendi nemo provident similique odit quis voluptatibus dolore magni, iusto maiores atque dolores incidunt, dignissimos tenetur sed ipsa a.</p>
+    </section>
+
+    <section id="contato" class="container">
+      <h2>Contato</h2>
+      <p>Quer conversar? Me chama no <a href="#">LinkedIn</a> ou envie um email.</p>
+      <form class="contact-form" aria-label="Formulário de contato">
+        <input type="text" placeholder="Seu nome" aria-label="Seu nome" />
+        <input type="email" placeholder="Seu email" aria-label="Seu email" />
+        <button class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 SeuNome • Portfólio</small>
+    </div>
+  </footer>
+</body>
+</html>
